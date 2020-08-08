@@ -1,0 +1,19 @@
+POST http://localhost:3333/classes HTTP/1.1 
+content-type: application/json
+
+{
+    "name": "David França",
+    "avatar": "https://avatars0.githubusercontent.com/u/30361358?s=460&u=0e52d23785c6306a8eaae02394213ef66a10baad&v=4",
+    "whatsapp": "+5585987884378",
+    "bio": "Entusiasta e amante da tecnologia. Analista de Sistemas e Programador Freelancer.",
+    "subject": "Javascript",
+    "cost": 80,
+    "schedule": [
+      {"week_day": 1, "from": "8:00", "to": "12:00"},
+      {"week_day": 3, "from": "10:00", "to": "12:00"},
+      {"week_day": 5, "from": "13:00", "to": "18:00"}
+    ]
+}
+
+###
+GET http://lolcalhost:3333/classes HTTP/1.1
