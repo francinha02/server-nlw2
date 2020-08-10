@@ -16,4 +16,7 @@ content-type: application/json
 }
 
 ###
-GET http://lolcalhost:3333/classes HTTP/1.1
+GET http://localhost:3333/classes
+    ?week_day=1
+    &subject=Javascript
+    &time=8%3A00
